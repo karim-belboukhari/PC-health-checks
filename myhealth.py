@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import psutil
+import os
 
 def check_health():
     # Check CPU usage
