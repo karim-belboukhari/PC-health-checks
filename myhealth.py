@@ -2,9 +2,11 @@
 
 import psutil
 
+
 def check_health():
     # Check CPU usage
     cpu_usage = psutil.cpu_percent(interval=1)
+    print("here is the details")
     print("CPU Usage:", cpu_usage, "%")
 
     # Check memory usage
