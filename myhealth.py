@@ -3,7 +3,7 @@
 import psutil
 
 
-def check_health():
+def check_my_pc_health():
     # Check CPU usage
     cpu_usage = psutil.cpu_percent(interval=1)
     print("here is the details")
